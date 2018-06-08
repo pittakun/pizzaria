@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    z-index: -1;
+}
+
+#index {
+    background-color: black;
+    background-image: url('img/index.jpg')
+}
+
+#bg{
+    width: 100%;
+    height: 800px;
+    opacity: 0.5;
+    position: fixed;
+    z-index: -2;
+}
+
+
+#menu ul {
+    float: right;
+    margin-right: 5%;
+    width: 80%;
+    height: 50px;
+}
+
+#menu ul li{
+    color: white;
+    font-size: 25px;
+    float: right;
+    list-style: none;
+    margin-left: 5%;
+    font-style: italic;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+
+#menu ul li:hover {
+    color: orange;
+    cursor:pointer;
+    font-size: 28px;
+    transition: 0.2s;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+#logo {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 120px;
+    opacity: 0.4;
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;
+    border-top-right-radius: 4px;
+    position: fixed;
+    z-index: -2;
+}
+
+footer {
+    width: 100%;
+    float: right;   
+    height: 50px;
+    position:absolute;
+    bottom:0;
+    background-color: black;
+}
+
+footer #facebook {
+    width: 30px; 
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+footer #facebook:hover {
+    opacity: 0.8;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+footer p {
+    width: 90%;
+    text-align:center;
+    margin-top: 10px;
+    color:  white;
+    float: right;
+    font-size: 22px;
+
+}
+
+#cardapio {
+    background-color: black;
+}
+
+#cardapio #selecao {
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    background-color: white;
+    border-radius: 20px;
+    float: right;
+    margin-top: 100px;
+    opacity: 0.9;
+}
+
+#cardapio #selecao p {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    font-size: 24px;
+}
+
+#cardapio #selecao ul {
+    margin-left: 4%;
+    float: left;
+    width: 20%;
+}
+
+#cardapio #selecao ul li {
+    list-style: none;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#cardapio #selecao ul li input[type=checkbox]{
+    border-radius: 100%;
+}
+
+#fale {
+    background-color: black;
+}
+
+#fale #faq {
+    width: 30%;
+    height: 400px;
+    margin-right: 35%;
+    margin-top: 50  px;
+    background-color: white;
+    float: right;
+    border-radius: 20px;
+}
+
+#fale #faq p {
+    font-size: 22px;
+    text-align: center;
+    margin: 5px;
+}
+
+#fale #faq input {
+    width: 90%;
+    height: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-left: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+#fale #faq textarea {
+    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-left: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+
+#log {
+    background-color: black;
+}
+
+#log #dados {
+    width: 30%;
+    height: 200px;
+    margin-right: 35%;
+    margin-top: 70px;
+    background-color: white;
+    float: right;
+    border-radius: 20px;
+    padding-top: 2%;
+    opacity: 0.9;
+}
+
+#log #dados input {
+    width: 90%;
+    height: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-left: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+#log #dados input[type="submit"] {
+    width: 50%;
+    margin-left: 25%;
+    background-color: green;
+    opacity: 0.8;
+    color:white;
+}
